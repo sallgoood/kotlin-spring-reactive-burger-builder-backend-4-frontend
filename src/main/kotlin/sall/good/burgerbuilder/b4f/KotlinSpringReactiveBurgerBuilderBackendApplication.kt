@@ -19,7 +19,6 @@ fun main(args: Array<String>) {
 
 
 @Component
-@Slf4j
 class DataInitializr(val ingredientQueryRepository: IngredientQueryRepository) : CommandLineRunner {
 	override fun run(vararg strings: String) {
 		val log = getLogger(DataInitializr::class.java);
