@@ -1,3 +1,3 @@
 package sall.good.burgerbuilder.b4f.domain
 
-class CreateOrderCommand(val data: Order)
+class OrderHistory(val data: Order)
