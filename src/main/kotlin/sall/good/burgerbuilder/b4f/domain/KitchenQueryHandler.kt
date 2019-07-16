@@ -7,5 +7,5 @@ import sall.good.burgerbuilder.b4f.repository.IngredientQueryRepository
 @Component
 class KitchenQueryHandler(val ingredientQueryRepository: IngredientQueryRepository){
 
-    fun findAll(): Flux<Ingredient> = ingredientQueryRepository.findAll()
+    fun getIngredients(): Flux<Ingredient> = ingredientQueryRepository.findAll()
 }
