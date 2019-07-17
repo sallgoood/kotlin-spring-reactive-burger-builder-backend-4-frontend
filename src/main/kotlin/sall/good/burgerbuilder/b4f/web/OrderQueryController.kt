@@ -15,5 +15,5 @@ class OrderQueryController(
     @GetMapping("/orders")
     fun createOrder(): Flux<OrderHistory>
             = orderQueryHandler.handle()
-            .delayElements(Duration.ofSeconds(Random.nextLong(0, 3)))
+            .delayElements(Duration.ofSeconds(Random.nextLong(0, 5)))
 }
