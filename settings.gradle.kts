@@ -12,4 +12,4 @@ pluginManagement {
 		}
 	}
 }
-rootProject.name = "kotlin-spring-reactive-burger-builder-backend-4-frontend"
+rootProject.name = "kotlin-spring-reactive-burger-builder-microservice"
